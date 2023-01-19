@@ -1,15 +1,17 @@
-# small-town-municipality
+# Small-town-municipality
 
+Implement the `App` with a home page to display a table with details of persons in an organisation. The `App` has a navigation bar with links. The `App` contains header with the title, search bar and links for different tabs. There is an action bar which has some actions for the data being rendered in the table.
+Static data from within the code has been used to display in tabular form. The data can be grouped as per the value of `Grupp` (Group) column, `Team` (team) column and `Tjänstetyp` (service type) column. The data can be sorted by any single column value either in ascending or descending order.
 
 ## Demo
-
+https://sapnachoudhary06.github.io/small-town-municipality/
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/sapnachoudhary06/small-town-municipality.git
+  https://github.com/sapnachoudhary06/small-town-municipality.git
 ```
 
 Go to the project directory
@@ -39,10 +41,17 @@ To deploy this project run
 ```
 
 ## 🛠 Skills
-Javascript, TypeScript, HTML, SCSS, Bulma, React and hooks.
+Javascript, TypeScript, HTML, CSS, SCSS, Bulma, React and hooks.
 
 
 ## Assumptions/Limitations
+1. The navigation links, tabs links and action buttons are dummy links/buttons to the home page (#) as the required functionality on clicking them was not mentioned anywhere.
+2. The data by default is grouped by `grupp` column value and then by `team` column value.
+3. Static data has been used in the table.
+4. Buttons in left and right part of actions bar have been given a scale-in effect on hover, just to indicate they are buttons.
+5. The search bar is used only for the filtering rows based on namn (name).
+6. Table data can only by grouped by `grupp`, `team` and `tjänstetyp` columns.
+7. `Organisationshieraki` button in tabs bar is set to be active by default.
 
 
 ## Original Problem Statement
@@ -51,6 +60,7 @@ In this code test, you are asked to implement a static web page, following a UX/
 wireframe as specified in the attached Figma file. This wireframe, as you will see,
 contains a table with sorting and grouping functionality.
 These are the guidelines you are asked to follow:
+
 1. The web page can be static, meaning that you don’t need to build a backend,
 but can simply use static data to display. If you choose to build a backend too,
 that would be a bonus.
@@ -74,6 +84,3 @@ well as functionality
 2. Your proficiency in React as a framework and Typescript as a language
 3. Your ability to work independently
 4. Your strengths as a programmer – make sure to showcase your strengths!
-You cannot reuse what you’ve built for this code test for other purposes than this
-internship application. This means, for example, that you cannot publish what you’ve
-built to your public GitHub repository or use in another job application.

@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/small-town-municipality/static/css/main.46971413.css",
+    "main.js": "/small-town-municipality/static/js/main.5ac5b692.js",
+    "static/media/fa-solid-900.ttf": "/small-town-municipality/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/small-town-municipality/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/small-town-municipality/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/small-town-municipality/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/small-town-municipality/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/small-town-municipality/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/small-town-municipality/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/small-town-municipality/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "static/media/share.svg": "/small-town-municipality/static/media/share.ec2def8e8e2f4124f91b.svg",
+    "static/media/group_add.svg": "/small-town-municipality/static/media/group_add.764a83f3db525632651f.svg",
+    "static/media/person_add.svg": "/small-town-municipality/static/media/person_add.be86717c24144f454b56.svg",
+    "static/media/expand_more_hover.svg": "/small-town-municipality/static/media/expand_more_hover.b3eaaec457d64e13d76d.svg",
+    "static/media/ios_share.svg": "/small-town-municipality/static/media/ios_share.39a7ceaf7c2227a4cb6a.svg",
+    "static/media/exit_to_app.svg": "/small-town-municipality/static/media/exit_to_app.8aa9e516ef6afd54f2ad.svg",
+    "static/media/view_column.svg": "/small-town-municipality/static/media/view_column.edb19b40abe8b9386cf7.svg",
+    "index.html": "/small-town-municipality/index.html",
+    "static/media/expand_more.svg": "/small-town-municipality/static/media/expand_more.1c679044460e0eac32f2.svg",
+    "main.46971413.css.map": "/small-town-municipality/static/css/main.46971413.css.map",
+    "main.5ac5b692.js.map": "/small-town-municipality/static/js/main.5ac5b692.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46971413.css",
+    "static/js/main.5ac5b692.js"
+  ]
+}

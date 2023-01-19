@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/small-town-municipality/static/css/main.46971413.css",
-    "main.js": "/small-town-municipality/static/js/main.5ac5b692.js",
+    "main.css": "/small-town-municipality/static/css/main.b20e2a41.css",
+    "main.js": "/small-town-municipality/static/js/main.c5432939.js",
     "static/media/fa-solid-900.ttf": "/small-town-municipality/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/fa-brands-400.ttf": "/small-town-municipality/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
     "static/media/fa-solid-900.woff2": "/small-town-municipality/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
@@ -16,14 +16,14 @@
     "static/media/expand_more_hover.svg": "/small-town-municipality/static/media/expand_more_hover.b3eaaec457d64e13d76d.svg",
     "static/media/ios_share.svg": "/small-town-municipality/static/media/ios_share.39a7ceaf7c2227a4cb6a.svg",
     "static/media/exit_to_app.svg": "/small-town-municipality/static/media/exit_to_app.8aa9e516ef6afd54f2ad.svg",
-    "static/media/view_column.svg": "/small-town-municipality/static/media/view_column.edb19b40abe8b9386cf7.svg",
     "index.html": "/small-town-municipality/index.html",
+    "static/media/view_column.svg": "/small-town-municipality/static/media/view_column.edb19b40abe8b9386cf7.svg",
     "static/media/expand_more.svg": "/small-town-municipality/static/media/expand_more.1c679044460e0eac32f2.svg",
-    "main.46971413.css.map": "/small-town-municipality/static/css/main.46971413.css.map",
-    "main.5ac5b692.js.map": "/small-town-municipality/static/js/main.5ac5b692.js.map"
+    "main.b20e2a41.css.map": "/small-town-municipality/static/css/main.b20e2a41.css.map",
+    "main.c5432939.js.map": "/small-town-municipality/static/js/main.c5432939.js.map"
   },
   "entrypoints": [
-    "static/css/main.46971413.css",
-    "static/js/main.5ac5b692.js"
+    "static/css/main.b20e2a41.css",
+    "static/js/main.c5432939.js"
   ]
 }

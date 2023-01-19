@@ -12,20 +12,40 @@
   &__button {
     @include useFlex (10px);
     padding: 9px 16px;
+
     background: #fff;
+
     border: 1px solid #00000029;
+
     border-radius: 8px;
 
+    transition: transform 500ms;
+
+
+
+
+    &:hover {
+
+      transform: scale(0.9);
+
+    }
+
+
+
+
     &--icon {
+
       @include useSquare (20px);
     }
 
     &--ny-person {
       background-image: url("../../images/person_add.svg");
     }
+
     &--ny-grupp {
       background-image: url("../../images/group_add.svg");
     }
+
     &--ändra-kolumner {
       background-image: url("../../images/view_column.svg");
     }
@@ -38,20 +58,40 @@
   &__action {
     @include useFlex (0);
     flex-direction: column;
+
     align-items: center;
+
     border: transparent;
+
     background: transparent;
 
+    transition: transform 500ms;
+
+
+
+
+    &:hover {
+
+      transform: scale(0.9);
+
+    }
+
+
+
+
     &--icon {
+
       @include useSquare (24px);
     }
 
     &--impotera {
       background-image: url("../../images/exit_to_app.svg");
     }
+
     &--expotera {
       background-image: url("../../images/ios_share.svg");
     }
+
     &--dela {
       background-image: url("../../images/share.svg");
     }

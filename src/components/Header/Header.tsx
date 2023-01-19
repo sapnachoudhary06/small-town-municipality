@@ -2,7 +2,13 @@ import React from 'react';
 import { Navbar } from '../Navbar';
 import './Header.scss';
 import './Title-bar.scss';
-export const Header = () => (
+
+interface Props {
+  query: string,
+  setQuery: (value: string) => void;
+}
+
+export const Header: React.FC<Props> = ({ query, setQuery}) => (
   <div className="header">
     <div className="header__top">
       <Navbar />
@@ -24,6 +30,8 @@ export const Header = () => (
               placeholder="Sök"
               className="input is-dander"
               name="query"
+              value={query}
+              onChange={(event: React.ChangeEvent<HTMLInputElement>) => setQuery(event.target.value)}
             />
           </div>
         </div>

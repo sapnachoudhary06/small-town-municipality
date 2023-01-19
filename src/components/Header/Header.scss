@@ -1,17 +1,16 @@
-@import "../../styles/utils/mixins";
+@import '../../styles/utils/mixins';
+@import '../../styles/utils/variables';
 
 .header {
-  @include containContent (80vw);
+  @include containContent ($contentWidth);
   background: #ffffff;
 
   &__mid {
     padding-top: 27px;
   }
-
   &__bottom {
     padding-top: 8px;
   }
-
   &-tabs {
     display: flex;
     gap: 10px;

@@ -1,28 +1,27 @@
 .header {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+
   &__mid {
     box-sizing: border-box;
     margin: 0 auto;
     width: 80vw;
     padding-top: 27px;
   }
-
   &__bottom {
     box-sizing: border-box;
     margin: 0 auto;
     width: 80vw;
     padding-top: 8px;
   }
-
   &-tabs {
     display: flex;
     gap: 10px;
   }
-
   &-tab {
     padding: 8px 16px;
     color: #4a4a4a;
     border-radius: 8px;
-
     &:hover {
       color: #0B5671;
       background: rgba(11, 86, 113, 0.08);

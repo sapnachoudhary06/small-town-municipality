@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.scss';
-
 export const Navbar = () => (
   <nav className="navbar is-fixed-top has-shadow">
     <div className="container">
@@ -10,14 +9,16 @@ export const Navbar = () => (
             className="navbar-item"
             href="#"
           >
-            Mina Sidor
+            <div>Mina Sidor</div>
+            <div className="navbar-item--expand"></div>
           </a>
 
           <a
             className="navbar-item"
             href="#"
           >
-            Schemaläggning
+            <div>Schemaläggning</div>
+            <div className="navbar-item--expand"></div>
           </a>
         </div>
 
